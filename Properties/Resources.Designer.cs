@@ -63,6 +63,26 @@ namespace ProyectoDeskstop.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _14562 {
+            get {
+                object obj = ResourceManager.GetObject("14562", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _565423 {
+            get {
+                object obj = ResourceManager.GetObject("565423", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura_de_pantalla_2026_09_15_191729 {
             get {
                 object obj = ResourceManager.GetObject("Captura de pantalla 2026-09-15 191729", resourceCulture);
