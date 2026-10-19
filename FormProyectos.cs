@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProyectoDeskstop
 {
-    public partial class Form2 : Form
+    public partial class FormProyectos : Form
     {
-        public Form2()
+        public FormProyectos()
         {
             InitializeComponent();
         }
