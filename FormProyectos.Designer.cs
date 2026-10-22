@@ -35,10 +35,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonAjustes = new System.Windows.Forms.Button();
+            this.buttonResumen = new System.Windows.Forms.Button();
+            this.buttonTareas = new System.Windows.Forms.Button();
+            this.buttonProyectos = new System.Windows.Forms.Button();
             this.buttonInicio = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
@@ -79,10 +79,10 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.MidnightBlue;
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.buttonAjustes);
+            this.panel1.Controls.Add(this.buttonResumen);
+            this.panel1.Controls.Add(this.buttonTareas);
+            this.panel1.Controls.Add(this.buttonProyectos);
             this.panel1.Controls.Add(this.buttonInicio);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -151,42 +151,42 @@
             this.label1.Text = "¿Necesitas ayuda?";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // button4
+            // buttonAjustes
             // 
-            this.button4.BackgroundImage = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_193619;
-            this.button4.Location = new System.Drawing.Point(12, 441);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(211, 47);
-            this.button4.TabIndex = 5;
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.buttonAjustes.BackgroundImage = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_193619;
+            this.buttonAjustes.Location = new System.Drawing.Point(12, 441);
+            this.buttonAjustes.Name = "buttonAjustes";
+            this.buttonAjustes.Size = new System.Drawing.Size(211, 47);
+            this.buttonAjustes.TabIndex = 5;
+            this.buttonAjustes.UseVisualStyleBackColor = true;
+            this.buttonAjustes.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button3
+            // buttonResumen
             // 
-            this.button3.BackgroundImage = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_193557;
-            this.button3.Location = new System.Drawing.Point(12, 375);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(211, 47);
-            this.button3.TabIndex = 4;
-            this.button3.UseVisualStyleBackColor = true;
+            this.buttonResumen.BackgroundImage = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_193557;
+            this.buttonResumen.Location = new System.Drawing.Point(12, 375);
+            this.buttonResumen.Name = "buttonResumen";
+            this.buttonResumen.Size = new System.Drawing.Size(211, 47);
+            this.buttonResumen.TabIndex = 4;
+            this.buttonResumen.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // buttonTareas
             // 
-            this.button2.BackgroundImage = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_193538;
-            this.button2.Location = new System.Drawing.Point(12, 312);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(211, 47);
-            this.button2.TabIndex = 3;
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonTareas.BackgroundImage = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_193538;
+            this.buttonTareas.Location = new System.Drawing.Point(12, 312);
+            this.buttonTareas.Name = "buttonTareas";
+            this.buttonTareas.Size = new System.Drawing.Size(211, 47);
+            this.buttonTareas.TabIndex = 3;
+            this.buttonTareas.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // buttonProyectos
             // 
-            this.button1.BackgroundImage = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_193512;
-            this.button1.Location = new System.Drawing.Point(12, 244);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(211, 47);
-            this.button1.TabIndex = 2;
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonProyectos.BackgroundImage = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_193512;
+            this.buttonProyectos.Location = new System.Drawing.Point(12, 244);
+            this.buttonProyectos.Name = "buttonProyectos";
+            this.buttonProyectos.Size = new System.Drawing.Size(211, 47);
+            this.buttonProyectos.TabIndex = 2;
+            this.buttonProyectos.UseVisualStyleBackColor = true;
             // 
             // buttonInicio
             // 
@@ -459,10 +459,10 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button buttonInicio;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button buttonResumen;
+        private System.Windows.Forms.Button buttonTareas;
+        private System.Windows.Forms.Button buttonProyectos;
+        private System.Windows.Forms.Button buttonAjustes;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

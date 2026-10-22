@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyectoDeskstop;
+using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
@@ -11,16 +12,54 @@ namespace ProyectoDesktop
         {
             InitializeComponent();
             RenderizarGraficoDona();
+            ConectarNavegacion();
+        }
+
+        private void ConectarNavegacion()
+        {
+            // Formularios disponibles
+            if (this.buttonProyectos != null)
+                this.buttonProyectos.Click += (s, e) => NavegarA(new FormProyectos());
+
+            if (this.buttonResumen != null)
+                this.buttonResumen.Click += (s, e) => NavegarA(new FormResumen());
+
+            if (this.buttonAjustes != null)
+                this.buttonAjustes.Click += (s, e) => NavegarA(new FormAjustes());
+
+            // Pantallas pendientes de tus compañeros
+            if (this.buttonInicio != null)
+                this.buttonInicio.Click += (s, e) => MostrarPantallaEnDesarrollo("Inicio");
+
+            if (this.buttonTareas != null)
+                this.buttonTareas.Click += (s, e) => MostrarPantallaEnDesarrollo("Tareas");
+        }
+
+        private void NavegarA(Form siguienteForm)
+        {
+            if (this.GetType() == siguienteForm.GetType()) return;
+
+            siguienteForm.StartPosition = FormStartPosition.Manual;
+            siguienteForm.Location = this.Location;
+            siguienteForm.Size = this.Size;
+
+            this.Hide();
+            siguienteForm.ShowDialog();
+            this.Close();
+        }
+
+        private void MostrarPantallaEnDesarrollo(string nombrePantalla)
+        {
+            MessageBox.Show($"La pantalla de {nombrePantalla} se encuentra actualmente en desarrollo.",
+                            "En proceso", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void RenderizarGraficoDona()
         {
             if (this.picDona != null)
             {
-                // Cambiar el fondo gris por blanco
                 this.picDona.BackColor = Color.White;
 
-                // Generar la imagen real de la dona
                 Bitmap bmp = new Bitmap(150, 150);
                 using (Graphics g = Graphics.FromImage(bmp))
                 {
@@ -44,7 +83,6 @@ namespace ProyectoDesktop
                     g.DrawString("6\nTareas", new Font("Segoe UI", 9.5f, FontStyle.Bold), Brushes.Black, hole, sf);
                 }
 
-                // Asignar imagen
                 this.picDona.Image = bmp;
             }
         }

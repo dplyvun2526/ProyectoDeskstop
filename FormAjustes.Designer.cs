@@ -18,7 +18,23 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.buttonTareas = new System.Windows.Forms.Button();
+            this.buttonAjustes = new System.Windows.Forms.Button();
+            this.buttonProyectos = new System.Windows.Forms.Button();
+            this.buttonInicio = new System.Windows.Forms.Button();
+            this.buttonResumen = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.panelContenido = new System.Windows.Forms.Panel();
             this.lblSub = new System.Windows.Forms.Label();
             this.lblTitulo = new System.Windows.Forms.Label();
@@ -42,34 +58,18 @@
             this.btnUsuario = new System.Windows.Forms.Button();
             this.btnAdmin = new System.Windows.Forms.Button();
             this.lblLogout = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.buttonInicio = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panelContenido.SuspendLayout();
             this.panelSubMenuLeft.SuspendLayout();
             this.panelContentArea.SuspendLayout();
             this.cardPerfil.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -77,16 +77,127 @@
             this.panel1.BackColor = System.Drawing.Color.MidnightBlue;
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.pictureBox4);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.buttonTareas);
+            this.panel1.Controls.Add(this.buttonAjustes);
+            this.panel1.Controls.Add(this.buttonProyectos);
             this.panel1.Controls.Add(this.buttonInicio);
-            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.buttonResumen);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(240, 817);
             this.panel1.TabIndex = 2;
+            // 
+            // panel2
+            // 
+            this.panel2.AutoSize = true;
+            this.panel2.BackColor = System.Drawing.Color.DarkBlue;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Location = new System.Drawing.Point(13, 569);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(210, 136);
+            this.panel2.TabIndex = 24;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Image = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_194742;
+            this.pictureBox1.Location = new System.Drawing.Point(15, 15);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(29, 27);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.label4.Location = new System.Drawing.Point(12, 105);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(46, 13);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Ver guia";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label5.Location = new System.Drawing.Point(12, 80);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(165, 13);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Consulta la guia rapida de Planea";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label6.Location = new System.Drawing.Point(12, 56);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(98, 13);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "¿Necesitas ayuda?";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox4.Image = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_192836;
+            this.pictureBox4.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(211, 114);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 18;
+            this.pictureBox4.TabStop = false;
+            // 
+            // buttonTareas
+            // 
+            this.buttonTareas.BackgroundImage = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_193538;
+            this.buttonTareas.Location = new System.Drawing.Point(12, 312);
+            this.buttonTareas.Name = "buttonTareas";
+            this.buttonTareas.Size = new System.Drawing.Size(211, 47);
+            this.buttonTareas.TabIndex = 21;
+            this.buttonTareas.UseVisualStyleBackColor = true;
+            // 
+            // buttonAjustes
+            // 
+            this.buttonAjustes.BackgroundImage = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_193619;
+            this.buttonAjustes.Location = new System.Drawing.Point(12, 441);
+            this.buttonAjustes.Name = "buttonAjustes";
+            this.buttonAjustes.Size = new System.Drawing.Size(211, 47);
+            this.buttonAjustes.TabIndex = 23;
+            this.buttonAjustes.UseVisualStyleBackColor = true;
+            // 
+            // buttonProyectos
+            // 
+            this.buttonProyectos.BackgroundImage = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_193512;
+            this.buttonProyectos.Location = new System.Drawing.Point(12, 244);
+            this.buttonProyectos.Name = "buttonProyectos";
+            this.buttonProyectos.Size = new System.Drawing.Size(211, 47);
+            this.buttonProyectos.TabIndex = 20;
+            this.buttonProyectos.UseVisualStyleBackColor = true;
+            // 
+            // buttonInicio
+            // 
+            this.buttonInicio.BackgroundImage = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_193426;
+            this.buttonInicio.Location = new System.Drawing.Point(12, 177);
+            this.buttonInicio.Name = "buttonInicio";
+            this.buttonInicio.Size = new System.Drawing.Size(211, 47);
+            this.buttonInicio.TabIndex = 19;
+            this.buttonInicio.UseVisualStyleBackColor = true;
+            // 
+            // buttonResumen
+            // 
+            this.buttonResumen.BackgroundImage = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_193557;
+            this.buttonResumen.Location = new System.Drawing.Point(12, 375);
+            this.buttonResumen.Name = "buttonResumen";
+            this.buttonResumen.Size = new System.Drawing.Size(211, 47);
+            this.buttonResumen.TabIndex = 22;
+            this.buttonResumen.UseVisualStyleBackColor = true;
             // 
             // panel3
             // 
@@ -100,6 +211,53 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1050, 60);
             this.panel3.TabIndex = 1;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(803, 12);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(127, 30);
+            this.textBox2.TabIndex = 17;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::ProyectoDeskstop.Properties.Resources._14562;
+            this.pictureBox5.Location = new System.Drawing.Point(770, 19);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(27, 23);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 18;
+            this.pictureBox5.TabStop = false;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.panel4.Controls.Add(this.pictureBox6);
+            this.panel4.Location = new System.Drawing.Point(776, 22);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(0, 0);
+            this.panel4.TabIndex = 15;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::ProyectoDeskstop.Properties.Resources._14562;
+            this.pictureBox6.Location = new System.Drawing.Point(4, 4);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(29, 26);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
+            // 
+            // button6
+            // 
+            this.button6.BackgroundImage = global::ProyectoDeskstop.Properties.Resources._565423;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button6.Location = new System.Drawing.Point(936, 12);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(39, 30);
+            this.button6.TabIndex = 16;
+            this.button6.UseVisualStyleBackColor = true;
             // 
             // panelContenido
             // 
@@ -379,164 +537,6 @@
             this.lblLogout.TabIndex = 11;
             this.lblLogout.Text = "→  Cerrar sesión";
             // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(803, 12);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(127, 30);
-            this.textBox2.TabIndex = 17;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::ProyectoDeskstop.Properties.Resources._14562;
-            this.pictureBox5.Location = new System.Drawing.Point(770, 19);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(27, 23);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 18;
-            this.pictureBox5.TabStop = false;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.panel4.Controls.Add(this.pictureBox6);
-            this.panel4.Location = new System.Drawing.Point(776, 22);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(0, 0);
-            this.panel4.TabIndex = 15;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::ProyectoDeskstop.Properties.Resources._14562;
-            this.pictureBox6.Location = new System.Drawing.Point(4, 4);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(29, 26);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 0;
-            this.pictureBox6.TabStop = false;
-            // 
-            // button6
-            // 
-            this.button6.BackgroundImage = global::ProyectoDeskstop.Properties.Resources._565423;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button6.Location = new System.Drawing.Point(936, 12);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(39, 30);
-            this.button6.TabIndex = 16;
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // panel2
-            // 
-            this.panel2.AutoSize = true;
-            this.panel2.BackColor = System.Drawing.Color.DarkBlue;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.label6);
-            this.panel2.Location = new System.Drawing.Point(13, 569);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(210, 136);
-            this.panel2.TabIndex = 24;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Image = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_194742;
-            this.pictureBox1.Location = new System.Drawing.Point(15, 15);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(29, 27);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label4.Location = new System.Drawing.Point(12, 105);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 13);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Ver guia";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label5.Location = new System.Drawing.Point(12, 80);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(165, 13);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Consulta la guia rapida de Planea";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label6.Location = new System.Drawing.Point(12, 56);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(98, 13);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "¿Necesitas ayuda?";
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox4.Image = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_192836;
-            this.pictureBox4.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(211, 114);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 18;
-            this.pictureBox4.TabStop = false;
-            // 
-            // button4
-            // 
-            this.button4.BackgroundImage = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_193619;
-            this.button4.Location = new System.Drawing.Point(12, 441);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(211, 47);
-            this.button4.TabIndex = 23;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // buttonInicio
-            // 
-            this.buttonInicio.BackgroundImage = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_193426;
-            this.buttonInicio.Location = new System.Drawing.Point(12, 177);
-            this.buttonInicio.Name = "buttonInicio";
-            this.buttonInicio.Size = new System.Drawing.Size(211, 47);
-            this.buttonInicio.TabIndex = 19;
-            this.buttonInicio.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.BackgroundImage = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_193557;
-            this.button3.Location = new System.Drawing.Point(12, 375);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(211, 47);
-            this.button3.TabIndex = 22;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.BackgroundImage = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_193512;
-            this.button1.Location = new System.Drawing.Point(12, 244);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(211, 47);
-            this.button1.TabIndex = 20;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.BackgroundImage = global::ProyectoDeskstop.Properties.Resources.Captura_de_pantalla_2026_10_13_193538;
-            this.button2.Location = new System.Drawing.Point(12, 312);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(211, 47);
-            this.button2.TabIndex = 21;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // FormAjustes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -549,21 +549,21 @@
             this.Text = "Ajustes";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panelContenido.ResumeLayout(false);
             this.panelContenido.PerformLayout();
             this.panelSubMenuLeft.ResumeLayout(false);
             this.panelContentArea.ResumeLayout(false);
             this.cardPerfil.ResumeLayout(false);
             this.cardPerfil.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -606,10 +606,10 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonTareas;
+        private System.Windows.Forms.Button buttonAjustes;
+        private System.Windows.Forms.Button buttonProyectos;
         private System.Windows.Forms.Button buttonInicio;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button buttonResumen;
     }
 }
