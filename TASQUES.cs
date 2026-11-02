@@ -8,13 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProyectoDeskstop
+namespace ProyectoIntermodular
 {
-    public partial class Form1 : Form
+    public partial class TASQUES : Form
     {
-        public Form1()
+        public TASQUES()
         {
             InitializeComponent();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void toolStripButtonResum_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

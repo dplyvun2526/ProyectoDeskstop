@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProyectoDeskstop.Properties
+namespace ProyectoIntermodular.Properties
 {
 
 
