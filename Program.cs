@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyectoDeskstop;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace ProyectoDesktop
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormAjustes());
+            Application.Run(new FormInicio());
         }
     }
 }

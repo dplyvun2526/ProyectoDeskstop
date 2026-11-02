@@ -52,6 +52,12 @@
     <Compile Include="FormAjustes.Designer.cs">
       <DependentUpon>FormAjustes.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInicio.Designer.cs">
+      <DependentUpon>FormInicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormProyectos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,16 +70,28 @@
     <Compile Include="FormResumen.Designer.cs">
       <DependentUpon>FormResumen.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTareas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTareas.Designer.cs">
+      <DependentUpon>FormTareas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormAjustes.resx">
       <DependentUpon>FormAjustes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInicio.resx">
+      <DependentUpon>FormInicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormProyectos.resx">
       <DependentUpon>FormProyectos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormResumen.resx">
       <DependentUpon>FormResumen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTareas.resx">
+      <DependentUpon>FormTareas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
